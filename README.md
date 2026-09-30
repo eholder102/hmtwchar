@@ -11,6 +11,7 @@ Working on backwards compatibility with Guildbook for loading newly-made charact
 This project is not affiliated with Joshua McCrowell, Crawlspace VTT, or Guildbook. 
 
 --HOW TO INSTALL--
+
 A pyinstaller github release has been prepared. You can simply download the zip, extract it, and run the .exe.
 Alternatively, you can execute the following commands in your shell:
 

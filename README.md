@@ -16,9 +16,11 @@ A pyinstaller github release has been prepared. You can simply download the zip,
 Alternatively, you can execute the following commands in your shell:
 
 git clone https://github.com/eholder102/hmtwchar.git
+
 cd hmtwchar
 
 python -m venv venv
+
 venv\Scripts\activate
 
 pip install -r requirements.txt

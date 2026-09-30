@@ -1,5 +1,7 @@
 # -*- mode: python ; coding: utf-8 -*-
 
+import sys
+
 a = Analysis(
     ['main.py'],
     pathex=[],
@@ -43,12 +45,27 @@ exe = EXE(
     entitlements_file=None,
 )
 
-coll = COLLECT(
-    exe,
-    a.binaries,
-    a.datas,
-    strip=False,
-    upx=True,
-    upx_exclude=[],
-    name='HMTWCharacterSheet',
-)
+if sys.platform == 'darwin':
+
+    app = BUNDLE(
+        exe,
+        a.binaries,
+        a.zipfiles,
+        a.datas,
+        name='HMTWCharacterSheet.app',
+        icon=None,
+        bundle_identifier='com.eholder.hmtwcharactersheet',
+    )
+
+else:
+
+    coll = COLLECT(
+        exe,
+        a.binaries,
+        a.zipfiles,
+        a.datas,
+        strip=False,
+        upx=True,
+        upx_exclude=[],
+        name='HMTWCharacterSheet',
+    )

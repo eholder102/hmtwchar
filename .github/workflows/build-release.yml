@@ -33,7 +33,7 @@ jobs:
 
       - name: Build application
         run: |
-          pyinstaller --windowed --name HMTWCharacterSheet HMTWCharacterSheet.spec
+          pyinstaller HMTWCharacterSheet.spec
 
       - name: Create ZIP
         shell: pwsh
@@ -72,7 +72,7 @@ jobs:
 
       - name: Build application
         run: |
-          pyinstaller --windowed --name HMTWCharacterSheet HMTWCharacterSheet.spec
+          pyinstaller HMTWCharacterSheet.spec
 
       - name: Create ZIP
         run: |
@@ -110,7 +110,7 @@ jobs:
 
       - name: Build application
         run: |
-          pyinstaller --windowed --name HMTWCharacterSheet HMTWCharacterSheet.spec
+          pyinstaller HMTWCharacterSheet.spec
 
       - name: Create ZIP
         run: |

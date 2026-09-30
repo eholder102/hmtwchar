@@ -1,0 +1,436 @@
+{
+    "state": {
+        "swords": 1,
+        "pentacles": 2,
+        "cups": 3,
+        "wands": 4,
+        "name": "sgWSG",
+        "path": "Wands",
+        "kith": "Underfolk",
+        "kin": "Dwarf",
+        "health": "Injured",
+        "stressed": true,
+        "resolve": 2,
+        "lore bids": 2,
+        "quest": "sweGed",
+        "languages": "gh",
+        "conditions": "sdgv",
+        "arete tasks": [
+            "Crafting something that will last for centuries",
+            "Recovering a precious gem or work of fine art and hoarding it as a grave good",
+            "Discovering something secret and forgotten"
+        ],
+        "motifs": [
+            "SG",
+            "SG",
+            "SG"
+        ],
+        "bonds": [
+            {
+                "guildmate": "sg",
+                "bond": "gws",
+                "charged": true
+            }
+        ],
+        "helm notch": true,
+        "armor notches": 3,
+        "flickers": 2,
+        "unspent xp":2
+    },
+    "talents": {
+        "kin talent": "Labor Unending",
+        "kin wounded": true,
+        "arete talent": "Iron Beards",
+        "arete wounded": true,
+        "path talents": [
+            {
+                "name": "Counter-spell",
+                "desc": "You can counter the effects of sorcery with an effort of\nwill. There are two applications for this talent:\n\u2022 You can stop enemy sorcerers from casting spells\nin battle. During Challenges, if you can perceive a\nsorcerer casting a spell, you may spend a Resolve to\nSpeak Incantations as an interrupt.\n\u2022 If your Speak Incantations value is greater than the\nenemy sorcerer\u2019s total value, their spell fizzles out.\n\u2022 If your Speak Incantations value is equal to or less\nthan the enemy\u2019s total value, the spell fizzles out but\nyou must draw on the maleficence table (Appendix\nA, p. 201) as the magic goes awry.\n\u2022 You can negate a spell already in play. You may\nspend a Resolve to immediately end the ongoing\neffects of a spell.",
+                "xp": 7,
+                "wounded": true
+            },
+            {
+                "name": "Dwimmercraft",
+                "desc": "Suffused with the arcane arts, you can perform small (but\nmeaningful) expressions of magic. You may perform the\nfollowing minor effects:\n\u2022 You may levitate an object in your zone that weighs\nabout 10 lbs. and that fits comfortably in one hand. You\nhave no fine motor control over this effect, but can\nbring things to you, lift them up, or push them away.\n\u2022 You may conjure a showy, harmless, and obviously\nmagical illusion\u2014a shower of sparks, a colorful rainbow\nstretched between your hands, a flickering image of\nyour first love.\n\u2022 You conjure a simple illusion of something that you\ncan hold in one hand. Anybody that tries to interact\nwith this object will realize it\u2019s an illusion, but the sight\nof it is fairly convincing.\nAdditionally, by spending a Resolve, you can focus your\nsecond sight for a watch. Second sight allows you to see\ninvisible and Shrouded things. You can perceive the true\nform of any illusion. You can automatically tell when\nthings are magical or under enchantment. You can also\ntell if somebody else is a sorcerer.\nUsing this talent during a Challenge counts as a\nmiscellaneous action.",
+                "xp": 5,
+                "wounded": false
+            },
+            {
+                "name": "Gramarye",
+                "desc": "You have learned how to draw on the energies of the\nfar realms. Using this talent, you can release a blast\nof magical energy up to one zone away through an\narchwood wand, doing damage as a weapon. During\nChallenges, Attacks with your wand count as Wands\nactions (p. 119).\nAdditionally, you gain a new Camp Action: Make a Pact.\nWhen you Make a Pact, choose to observe one or more\npacts from the facing page",
+                "xp": 0,
+                "wounded": false
+            },
+            {
+                "name": "Magic of the Wastes",
+                "desc": "You may cast spells of the Wastes. The Wastes are a grim\nplace of death and decay. Spells of this realm deal with\nmatters of undeath, spread fear, or cause harm.",
+                "xp": 0,
+                "wounded": false
+            },
+            {
+                "name": "Magic of the Weald",
+                "desc": "You may cast spells of the Weald. The Weald is a verdant\nand wild place. Spells of this realm affect the elements,\ncommand beasts, and reshape the natural world.",
+                "xp": 0,
+                "wounded": false
+            },
+            {
+                "name": "Magic of the Weird",
+                "desc": "You may cast spells of the Weird. The Weird is a place\nof dream, untouched by sanity. Spells of this realm\naffect one\u2019s mind and emotions, conjure illusions, and\nbend reality.",
+                "xp": 0,
+                "wounded": false
+            },
+            {
+                "name": "Magic of the Welkin",
+                "desc": "You may cast spells of the Welkin. The Welkin is a\nbright and holy place. Spells of this realm deal with\nangels, provide healing and protection, and invoke an\nawful wonder.",
+                "xp": 0,
+                "wounded": false
+            }
+        ],
+        "taught talents": [
+            {
+                "name": "vdsav",
+                "desc": "",
+                "xp": 7,
+                "wounded": true
+            },
+            {
+                "name": "",
+                "desc": "",
+                "xp": 0,
+                "wounded": false
+            }
+        ]
+    },
+    "inventory": {
+        "name": "sgWSG",
+        "rtHand": {
+            "name": "Heirloom Sword",
+            "notchMax": 2,
+            "notchesUsed": 0,
+            "flickerMax": 0,
+            "flickersUsed": 0,
+            "lit": false,
+            "charged": false,
+            "wornBeltSlots": 0,
+            "twoHanded": false,
+            "oversized": false
+        },
+        "ltHand": {
+            "name": "Shield, heavy",
+            "notchMax": 3,
+            "notchesUsed": 2,
+            "flickerMax": 0,
+            "flickersUsed": 0,
+            "lit": false,
+            "charged": false,
+            "wornBeltSlots": 0,
+            "twoHanded": false,
+            "oversized": false,
+            "notches": 2
+        },
+        "belt": [
+            {
+                "name": "",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Broken Evil Blood Sword",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            }
+        ],
+        "pack": [
+            {
+                "name": "Bedroll",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": true,
+                "oversized": false
+            },
+            {
+                "name": "",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Ration",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Crowbar",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Grappling hook",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Rope",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Quill and ink",
+                "notchMax": 1,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Hatchet",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Lyre",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Tinker's kit",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": true,
+                "oversized": false
+            },
+            {
+                "name": "",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Rat (Symon)",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Flint and tinder",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Journal",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Candle",
+                "notchMax": 1,
+                "notchesUsed": 0,
+                "flickerMax": 2,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Hammer",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Caltrops",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Oil-Soaked Cloth",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Ration",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Spellbook of Gross Potable Water",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            }
+        ]
+    }
+}

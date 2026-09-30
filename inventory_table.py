@@ -8,13 +8,14 @@ from PyQt5.QtWidgets import (
     QMenu,
     QMessageBox
 )
+from PyQt5.QtCore import Qt, QMimeData, pyqtSignal
 
 
 class InventoryTable(QTableWidget):
-
+    inventoryChanged = pyqtSignal()
     def __init__(self, parent=None):
         super().__init__(parent)
-
+        
         self.setDragEnabled(True)
         self.setAcceptDrops(True)
         self.setDragDropMode(QTableWidget.DragDrop)
@@ -157,7 +158,7 @@ class InventoryTable(QTableWidget):
         # Redraw both tables
         source_table.refresh_inventory()
         self.refresh_inventory()
-
+        self.inventoryChanged.emit()
         event.acceptProposedAction()
 
     def refresh_inventory(self):

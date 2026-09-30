@@ -1,0 +1,468 @@
+{
+    "state": {
+        "swords": 4,
+        "pentacles": 2,
+        "cups": 3,
+        "wands": 0,
+        "name": "Sil\u00e1n Storysoul ",
+        "path": "Swords",
+        "kith": "Fay",
+        "kin": "High Elf",
+        "health": "Hale",
+        "stressed": true,
+        "resolve": 3,
+        "lore bids": 3,
+        "quest": "Slay a Dragon. Save a Princess.",
+        "languages": "Tylweth\nVulgaris",
+        "conditions": "Rooted",
+        "arete tasks": [
+            "Killing something without using a weapon",
+            "Providing aid to a spirit",
+            "Making someone they\u2019ve kissed cry"
+        ],
+        "motifs": [
+            "Wistful Wizard's Apprentice",
+            "Obsessive People-Watcher",
+            "Storybook Devourer"
+        ],
+        "bonds": [
+            {
+                "guildmate": "Patches",
+                "bond": "Mentor",
+                "charged": true
+            },
+            {
+                "guildmate": "Rodyle",
+                "bond": "Rival",
+                "charged": false
+            },
+            {
+                "guildmate": "Billium",
+                "bond": "Ally",
+                "charged": false
+            },
+            {
+                "guildmate": "KWVW",
+                "bond": "Best Friend",
+                "charged": true
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "helm notch": true,
+        "armor notches": 1,
+        "flickers": 2,
+        "unspent xp": 0
+    },
+    "talents": {
+        "kin talent": "Read the Past",
+        "kin wounded": true,
+        "arete talent": "Akashic Consiousness",
+        "arete wounded": true,
+        "path talents": [
+            {
+                "name": "Aegis",
+                "desc": "If you are carrying an intact shield and would suffer an\neffect from a physical source (an attack, a trap, etc.),\nyou may elect to Notch your shield instead of taking\nthe effect.",
+                "xp": 2,
+                "wounded": false
+            },
+            {
+                "name": "Doom Eye",
+                "desc": "When wielding a missile weapon during a Challenge,\nyou may spend a Sword card on your turn to perform a\nperfect shot. This Attack automatically hits, regardless\nof the target\u2019s Initiative.",
+                "xp": 0,
+                "wounded": true
+            },
+            {
+                "name": "Heavy Metal Machine",
+                "desc": "During Challenges, if you are wearing iron or steel\narmor, you may use a miscellaneous action (discarding\nany card) to add your Swords to your Initiative as an\ninterrupt against a single action. You may only use this\ntalent once per round.",
+                "xp": 2,
+                "wounded": false
+            },
+            {
+                "name": "Monster Hunter",
+                "desc": "When you master or train this talent, choose both a hated\nfoe and a specialization of that enemy.\n\u2022 You gain a motif called \u201c[Foe] Hunter.\u201d You can use\nthis motif to bid lore about these creatures or to gain\nfavor in tests of fate related to them, as normal.\n\u2022 You make Attacks with favor against foes of your\nspecialization.\nChoose a foe and a specialization from the following\nlist\u2014you can change your foe as a City Action if some new\ntype of creature really gives you reason to be pissed off.\nBeast Hunter\nYou specialize in hunting, tracking, and trapping beasts\nof all shapes and sizes. What qualifies as a \u201cbeast\u201d? Well,\nif it\u2019s in a medieval bestiary, it\u2019s probably a beast. Beasts\nare native to the realm of Flesh\u2014they feast, fight, flee,\nand fuck.\nSpecializations: Any specific species (e.g., bats,\ncentipedes, chimeras, cockatrices, dinosaurs, tigers)\nElemental Hunter\nYour focus is dealing with supernatural embodiments\nof nature.\nSpecializations: Any specific creature (e.g., undine,\nsalamander, siren, dryad, tree giants)\nMan Hunter\nYou specialize in the most dangerous game. The term\n\u201cman\u201d is a bit of a misnomer. This category covers all\nkith, kin, and genders.\nSpecializations: Any specific kith: fay, humans,\nunderfolk, orcs\nSpirit Hunter\nYour focus is on alien intelligences from the far realms.\nYou can deal with incorporeal spirits, manifested spirits,\nand possessing spirits.\nSpecializations: Spirits from one of the far realms (i.e.,\nWastes, Weald, Weird, Welkin)\nUndead Hunter\nYou have experience pacifying the unquiet dead.\nSpecializations: A specific undead type (e.g., skeleton,\nzombie, wraith)\nWitch Hunter\nIf the answer to the question \u201cwhat is that thing?\u201d is\n\u201ca wizard did it,\u201d you can deal with it.\nSpecializations: Any specific type of magical\nmanifestation (e.g., beastmen, golems, oozes)",
+                "xp": 7,
+                "wounded": false
+            },
+            {
+                "name": "Reaver",
+                "desc": "When you Attack during Challenges, you may also move one zone (p. 109) as\nyou charge towards your foe",
+                "xp": 7,
+                "wounded": false
+            },
+            {
+                "name": "Two-handed Focus",
+                "desc": "If you are wielding a melee weapon with both hands during a Challenge, you\nmay Attack as a minor action with either a Pentacles or a Swords card.",
+                "xp": 0,
+                "wounded": true
+            },
+            {
+                "name": "War Stories",
+                "desc": "As a Camp Action, tell your guild the story of some of your past adventures.\nMaybe this was an adventure you've played out in-character, or maybe one in\nyour backstory. You\u2014and everyone who listens and role-plays with you a little\u2014\ngets to choose one of the following benefits:\n\u2022 They may charge an uncharged Bond.\n\u2022 They gain an extra point of Resolve; this can bring their Resolve up to 5.",
+                "xp": 0,
+                "wounded": false
+            }
+        ],
+        "taught talents": [
+            {
+                "name": "Dwimmercraft",
+                "desc": "",
+                "xp": 7,
+                "wounded": 2
+            },
+            {
+                "name": "",
+                "desc": "",
+                "xp": 0,
+                "wounded": false
+            }
+        ]
+    },
+    "inventory": {
+        "name": "Sil\u00e1n Storysoul ",
+        "rtHand": {
+            "name": "Heirloom Sword",
+            "notchMax": 2,
+            "notchesUsed": 0,
+            "flickerMax": 0,
+            "flickersUsed": 0,
+            "lit": false,
+            "charged": false,
+            "wornBeltSlots": 0,
+            "twoHanded": false,
+            "oversized": false,
+            "notches": 1
+        },
+        "ltHand": {
+            "name": "Shield, heavy",
+            "notchMax": 3,
+            "notchesUsed": 2,
+            "flickerMax": 0,
+            "flickersUsed": 0,
+            "lit": false,
+            "charged": false,
+            "wornBeltSlots": 0,
+            "twoHanded": false,
+            "oversized": false,
+            "notches": 1
+        },
+        "belt": [
+            {
+                "name": "",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Broken Evil Blood Sword",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            }
+        ],
+        "pack": [
+            {
+                "name": "Bedroll",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": true,
+                "oversized": false
+            },
+            {
+                "name": "",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Ration",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Crowbar",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Grappling hook",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Rope",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Quill and ink",
+                "notchMax": 1,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Hatchet",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Lyre",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Tinker's kit",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": true,
+                "oversized": false
+            },
+            {
+                "name": "",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Rat (Symon)",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Flint and tinder",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Journal",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Candle",
+                "notchMax": 1,
+                "notchesUsed": 0,
+                "flickerMax": 2,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Hammer",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Caltrops",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Oil-Soaked Cloth",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Ration",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            },
+            {
+                "name": "Spellbook of Gross Potable Water",
+                "notchMax": 2,
+                "notchesUsed": 0,
+                "flickerMax": 0,
+                "flickersUsed": 0,
+                "lit": false,
+                "charged": false,
+                "wornBeltSlots": 0,
+                "twoHanded": false,
+                "oversized": false
+            }
+        ]
+    }
+}

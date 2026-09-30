@@ -1002,7 +1002,7 @@
        </attribute>
        <layout class="QGridLayout" name="gridLayout">
         <item row="5" column="0">
-         <widget class="QCheckBox" name="checkBox_5">
+         <widget class="QCheckBox" name="kin_wounded_box">
           <property name="maximumSize">
            <size>
             <width>100</width>
@@ -1015,7 +1015,7 @@
          </widget>
         </item>
         <item row="5" column="7">
-         <widget class="QCheckBox" name="checkBox_6">
+         <widget class="QCheckBox" name="arete_wounded_box">
           <property name="maximumSize">
            <size>
             <width>100</width>
@@ -1208,7 +1208,7 @@
           <property name="title">
            <string>Flickers</string>
           </property>
-          <widget class="QCheckBox" name="checkBox_17">
+          <widget class="QCheckBox" name="flicker1">
            <property name="geometry">
             <rect>
              <x>20</x>
@@ -1221,7 +1221,7 @@
             <string/>
            </property>
           </widget>
-          <widget class="QCheckBox" name="checkBox_18">
+          <widget class="QCheckBox" name="flicker2">
            <property name="geometry">
             <rect>
              <x>40</x>
@@ -1234,7 +1234,7 @@
             <string/>
            </property>
           </widget>
-          <widget class="QCheckBox" name="checkBox_19">
+          <widget class="QCheckBox" name="flicker3">
            <property name="geometry">
             <rect>
              <x>60</x>
@@ -1352,7 +1352,7 @@
            <property name="title">
             <string>Notches</string>
            </property>
-           <widget class="QCheckBox" name="checkBox_11">
+           <widget class="QCheckBox" name="lt_notch_1">
             <property name="geometry">
              <rect>
               <x>20</x>
@@ -1365,7 +1365,7 @@
              <string/>
             </property>
            </widget>
-           <widget class="QCheckBox" name="checkBox_12">
+           <widget class="QCheckBox" name="lt_notch_2">
             <property name="geometry">
              <rect>
               <x>40</x>
@@ -1378,7 +1378,7 @@
              <string/>
             </property>
            </widget>
-           <widget class="QCheckBox" name="checkBox_13">
+           <widget class="QCheckBox" name="lt_notch_3">
             <property name="geometry">
              <rect>
               <x>60</x>
@@ -1513,7 +1513,7 @@
            <property name="title">
             <string>Notches</string>
            </property>
-           <widget class="QCheckBox" name="checkBox_14">
+           <widget class="QCheckBox" name="rt_notch_1">
             <property name="geometry">
              <rect>
               <x>20</x>
@@ -1526,7 +1526,7 @@
              <string/>
             </property>
            </widget>
-           <widget class="QCheckBox" name="checkBox_15">
+           <widget class="QCheckBox" name="rt_notch_2">
             <property name="geometry">
              <rect>
               <x>40</x>
@@ -1539,7 +1539,7 @@
              <string/>
             </property>
            </widget>
-           <widget class="QCheckBox" name="checkBox_16">
+           <widget class="QCheckBox" name="rt_notch_3">
             <property name="geometry">
              <rect>
               <x>60</x>
@@ -1619,9 +1619,10 @@
     <property name="title">
      <string>File</string>
     </property>
-    <addaction name="actionSave"/>
     <addaction name="actionSave_As"/>
     <addaction name="actionOpen"/>
+    <addaction name="actionOpen_Crawlspace_Inventory"/>
+    <addaction name="actionOpen_Guildbook_Markdown"/>
    </widget>
    <addaction name="menuFile"/>
   </widget>
@@ -1639,6 +1640,16 @@
   <action name="actionOpen">
    <property name="text">
     <string>Open</string>
+   </property>
+  </action>
+  <action name="actionOpen_Crawlspace_Inventory">
+   <property name="text">
+    <string>Open Crawlspace Inventory</string>
+   </property>
+  </action>
+  <action name="actionOpen_Guildbook_Markdown">
+   <property name="text">
+    <string>Open Guildbook Markdown</string>
    </property>
   </action>
  </widget>

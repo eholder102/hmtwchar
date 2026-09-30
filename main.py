@@ -783,6 +783,8 @@ class char_sheet(QMainWindow,Ui_HisMajestyTheWorm,character):
         self.lthand = None
         self.belt = None
         self.pack = None
+        self.belt_list = [None,None,None,None]
+        self.pack_list = [None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None]
 
 
         self.quest = ""
@@ -1352,32 +1354,55 @@ class char_sheet(QMainWindow,Ui_HisMajestyTheWorm,character):
             )
 
 
+
     def pack_item_clicked(self, row, column):
+        item_index = row + (column * 10)
+        item = self.pack_list[item_index]
 
-        item = self.pack_list[row+(column*10)]
-
-        self.show_item_details(item)
+        self.show_item_details(
+            item,
+            self.pack_list,
+            item_index,
+            "pack"
+        )
     def belt_item_clicked(self, row, column):
+        item_index = row + (column * 2)
+        item = self.belt_list[item_index]
 
-        item = self.belt_list[row+(column*2)]
-
-        self.show_item_details(item)
+        self.show_item_details(
+            item,
+            self.belt_list,
+            item_index,
+            "belt"
+        )
 
     def rthand_item_clicked(self):
         item = self.rthand
-        self.show_item_details(item)
+
+        self.show_item_details(
+            item,
+            [item],
+            0,
+            "rthand"
+        )
 
     def lthand_item_clicked(self):
         item = self.lthand
-        self.show_item_details(item)
+        self.show_item_details(
+            item,
+            [item],
+            0,
+            "lthand"
+        )
 
-    def show_item_details(self,item):
-        self.edit_item(item) #TODO: clean up call later
+
+    def show_item_details(self,item,inventory_list,item_index,loc):
+        self.edit_item(item,inventory_list,item_index,loc) #TODO: clean up call later
         self.populate_hands(self.rthand,self.lthand)
         self.populate_belt(self.belt)
         self.populate_pack(self.pack)
     
-    def edit_item(self, item):
+    def edit_item(self, item, inventory_list=None, item_index=None,loc = None):
         dialog = QDialog(self)
         dialog.setWindowTitle("Edit Item")
         dialog.resize(400, 300)
@@ -1387,14 +1412,20 @@ class char_sheet(QMainWindow,Ui_HisMajestyTheWorm,character):
         # Item name
         name_label = QLabel("Name:")
         name_box = QLineEdit()
-        name_box.setText(item.get("name", ""))
+
+        if item is not None:
+            name_box.setText(item.get("name", ""))
 
         # Description
         description_label = QLabel("Description:")
         description_box = QTextEdit()
-        description_box.setPlainText(
-            item.get("desc", "No description available.")
-        )
+
+        if item is not None:
+            description_box.setPlainText(
+                item.get("desc", "No description available.")
+            )
+        else:
+            description_box.setPlainText("")
 
         save_button = QPushButton("Save")
 
@@ -1416,9 +1447,36 @@ class char_sheet(QMainWindow,Ui_HisMajestyTheWorm,character):
                 )
                 return
 
-            item["name"] = new_name
-            item["desc"] = description_box.toPlainText()
+            if item is not None:
+                # Edit existing item
+                item["name"] = new_name
+                item["desc"] = description_box.toPlainText()
 
+            else:
+                # Create new item
+                new_item = {
+                    "name": new_name,
+                    "desc": description_box.toPlainText(),
+                    "notches": 0
+                }
+
+                if inventory_list is not None and item_index is not None:
+                    inventory_list[item_index] = new_item
+            match loc:
+                case "rthand":
+                    if item is not None:
+                        self.rthand = item
+                    else:
+                        self.rthand = new_item
+                case "lthand":
+                    if item is not None:
+                        self.lthand = item
+                    else:
+                        self.lthand = new_item 
+                case "belt":
+                    self.belt = inventory_list
+                case "pack":
+                    self.pack = inventory_list
             dialog.accept()
 
         save_button.clicked.connect(save_item)

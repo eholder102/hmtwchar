@@ -1,0 +1,124 @@
+name: Build Release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+
+  # ---------------------------------------------------------
+  # Windows
+  # ---------------------------------------------------------
+  build-windows:
+    name: Build Windows
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build application
+        run: |
+          pyinstaller --windowed --name HMTWCharacterSheet main.py
+
+      - name: Create ZIP
+        shell: pwsh
+        run: |
+          Compress-Archive `
+            -Path "dist/HMTWCharacterSheet/*" `
+            -DestinationPath "HMTWCharacterSheet-Windows.zip"
+
+      - name: Upload Windows release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: HMTWCharacterSheet-Windows.zip
+
+
+  # ---------------------------------------------------------
+  # macOS Intel
+  # ---------------------------------------------------------
+  build-macos-intel:
+    name: Build macOS Intel
+    runs-on: macos-13
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build application
+        run: |
+          pyinstaller --windowed --name HMTWCharacterSheet main.py
+
+      - name: Create ZIP
+        run: |
+          ditto -c -k --sequesterRsrc --keepParent \
+            "dist/HMTWCharacterSheet.app" \
+            "HMTWCharacterSheet-macOS-Intel.zip"
+
+      - name: Upload macOS Intel release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: HMTWCharacterSheet-macOS-Intel.zip
+
+
+  # ---------------------------------------------------------
+  # macOS Apple Silicon
+  # ---------------------------------------------------------
+  build-macos-arm64:
+    name: Build macOS Apple Silicon
+    runs-on: macos-14
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build application
+        run: |
+          pyinstaller --windowed --name HMTWCharacterSheet main.py
+
+      - name: Create ZIP
+        run: |
+          ditto -c -k --sequesterRsrc --keepParent \
+            "dist/HMTWCharacterSheet.app" \
+            "HMTWCharacterSheet-macOS-Apple-Silicon.zip"
+
+      - name: Upload macOS Apple Silicon release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: HMTWCharacterSheet-macOS-Apple-Silicon.zip

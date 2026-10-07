@@ -21,7 +21,7 @@ from PyQt5.QtWidgets import (
 from char import Ui_HisMajestyTheWorm
 
 APP_DIR = Path(__file__).resolve().parent
-
+APP_VERSION = "1.0.4"
 
 from PyQt5.QtWidgets import QTableWidget, QTableWidgetItem
 from PyQt5.QtCore import Qt, QMimeData
@@ -785,7 +785,15 @@ class char_sheet(QMainWindow,Ui_HisMajestyTheWorm,character):
         self.pack = None
         self.belt_list = [None,None,None,None]
         self.pack_list = [None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None]
-
+        
+        self.swords = 4
+        self.pentacles = 3
+        self.cups = 2
+        self.wands = 1
+        self.swords_box.setValue(4)
+        self.pentacles_box.setValue(3)
+        self.cups_box.setValue(2)
+        self.wands_box.setValue(1)
 
         self.quest = ""
 
